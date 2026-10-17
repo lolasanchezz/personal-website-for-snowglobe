@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "cool-font";
+    src: url("cool-font.ttf")
+}
+
+@font-face {
+    font-family: "jetbrains";
+    src: url("jetbrains.ttf")
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
+.images {
+    width:(100%, 60rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container {
+    display: flex;
+    flex: 1 1 12rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 16rem;
+}
+
+.container img {
+    display: block;
+    width: 100%;
+    height: 12rem;
+    object-fit: contain;
+}
+
+h1 {
+    font-family: 'cool-font';
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    margin: 0.5em 0;
+}
+
+p {
+    font-family: 'jetbrains'
+}
